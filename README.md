@@ -1,2 +1,6 @@
 # MyProjects
-Repositorio donde se guardaran los proyectos fuera del curso
+Repositorio donde se guardarán diferente proyectos como:
+
+- Projecto de Bienvenida
+
+- Projecto **TFG**
