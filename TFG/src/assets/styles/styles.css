@@ -1,3 +1,154 @@
+@font-face {
+    font-family: "Italiana";
+    src: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/fonts/Italiana-Regular.ttf") format("truetype");
+}
+
 body {
-    background-image: url('/TFG/src/assets/images/marblegold.jpg');
+    font-family: "Italiana";
+    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
+}
+
+#idLogo {
+    width: 100px;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Estilos del menú flotante */
+.floating-menu {
+    position: fixed;
+    top: 60px;
+    /* Distancia con la parte superior de la página */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #080808;
+    width: 70%;
+    /* Tamaño de la barra de navegación */
+    text-align: center;
+    border-radius: 15px;
+    z-index: 2; /* Asegura que el formulario esté por encima del menú */
+}
+
+.floating-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.floating-menu li {
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+}
+
+.floating-menu a {
+    text-decoration: none;
+    background: url('C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg');
+    -webkit-background-clip: text; /* Función no compatible con todos los navegadores */
+    color: transparent;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.floating-menu li:not(:last-child)::before {
+    content: "|";
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    /* Ajusta la posición de la tubería */
+    transform: translateY(-50%);
+    color: white;
+    /* Color de la tubería */
+}
+
+.floating-menu a:hover {
+    background-color: #555;
+}
+
+/* ----------------------------------------- */
+/* Estilos del formulario flotante */
+.floating-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 66%; 
+    transform: translate(-50%, -50%); /* Función a la hora de redimensionar */
+    background-color: #fff;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divido formulario dos columnas */
+    gap: 20px; /* Espacio entre las columnas */
+
+    font-size: 20px;
+}
+
+.floating-form form {
+    display: grid;
+    gap: 15px;
+}
+
+.floating-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.floating-form input,
+.floating-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.floating-form button {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Italiana";
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.floating-form button:hover {
+    background-color: #585858;
+}
+
+/* ------------------------------------------- */
+
+.floating-sidebar {
+    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
+    grid-column: 2;
+
+    position: fixed;
+    display: flex;
+    
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    width: 50%; 
+    transform: translate(-50%, -50%);
+    
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.floating-sidebar img {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
 }
