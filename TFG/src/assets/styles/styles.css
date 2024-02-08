@@ -16,6 +16,16 @@ body {
     height: auto;
 }
 
+#liLogoAccessibility {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#iconAccesibility {
+    width: 25px;
+}
+
 .content {
     padding: 20px;
     margin-top: 60px;
@@ -29,11 +39,10 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background-color: #080808;
-    width: 70%;
-    /* Tamaño de la barra de navegación */
+    width: 70%; /* Tamaño de la barra de navegación */
     text-align: center;
     border-radius: 15px;
-    z-index: 2; /* Asegura que el formulario esté por encima del menú */
+    z-index: 2; 
 }
 
 .floating-menu ul {
@@ -57,26 +66,24 @@ body {
     font-size: 22px;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /* Para el cambio durante el hover */
+}
+
+.floating-menu a:hover {
+    /* No me funciona probablemente sea por el webkit-background-clip */
+    background-color: #929292;
 }
 
 .floating-menu li:not(:last-child)::before {
     content: "|";
     position: absolute;
     top: 50%;
-    right: -15px;
-    /* Ajusta la posición de la tubería */
+    right: -15px; /* Posición de la tubería */
     transform: translateY(-50%);
     color: white;
-    /* Color de la tubería */
-}
-
-.floating-menu a:hover {
-    background-color: #555;
 }
 
 /* ----------------------------------------- */
-/* Estilos del formulario flotante */
 .floating-form {
     position: fixed;
     top: 58%;
@@ -115,6 +122,7 @@ body {
 }
 
 .floating-form button {
+
     background-color: #ffffff;
     color: #000000;
     font-family: "Italiana";
@@ -123,6 +131,10 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+
+    width: 49%; /* Tamaño útil para que ambos botones entren 
+    debajo del formulario*/
+    
 }
 
 .floating-form button:hover {
@@ -152,7 +164,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 .floating-sidebar img {
     width: 50px; 
     height: auto;
@@ -162,5 +173,5 @@ body {
 .floating-sidebar P {
     font-size: 22px;
     font-weight: bold;
-    
+    margin-bottom: 0;
 }
