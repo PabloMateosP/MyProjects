@@ -1,12 +1,14 @@
 @font-face {
     font-family: "Italiana";
-    src: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/fonts/Italiana-Regular.ttf") format("truetype");
+    /* src: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/fonts/Italiana-Regular.ttf") format("truetype"); */
+    src: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/fonts/Italiana-Regular.ttf") format("truetype");
 }
 
 body {
     font-family: "Italiana";
     font-weight: bold;
-    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
+    /* background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg"); */
+    background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg");
 }
 
 #idLogo {
@@ -48,7 +50,8 @@ body {
 
 .floating-menu a {
     text-decoration: none;
-    background: url('C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg');
+    /* background: url('C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg'); */
+    background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg");
     -webkit-background-clip: text; /* Función no compatible con todos los navegadores */
     color: transparent;
     font-size: 22px;
@@ -129,7 +132,8 @@ body {
 /* ------------------------------------------- */
 
 .floating-sidebar {
-    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
+    /* background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg"); */
+    background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg");
     grid-column: 2;
 
     position: fixed;
