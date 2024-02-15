@@ -175,3 +175,24 @@ body {
     font-weight: bold;
     margin-bottom: 0;
 }
+
+/* -------------------------------------------  */
+
+footer {
+    position: fixed;
+    top: 90%;
+    left: 32%;
+}
+.floating-footer {
+    padding: 1px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#enlacesLicencia {
+    color: #ffffff;
+}
+
+#textoFooter {
+    margin: 5px;
+}
