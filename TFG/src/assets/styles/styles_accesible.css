@@ -1,14 +1,15 @@
 @font-face {
     font-family: "openDyslexics";
     /* src: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/fonts/Italiana-Regular.ttf") format("truetype"); */
-    src: url("C:\Users\usuario\Documents\ProjectosPropios\TFG\src\assets\fonts\OpenDyslexic-Regular.otf") format("truetype");
+    /* src: url("C:\Users\usuario\Documents\ProjectosPropios\TFG\src\assets\fonts\OpenDyslexic-Regular.otf") format("truetype"); */
+    src: url("C:\Users\pablo\OneDrive\Documentos\MyProjects\TFG\src\assets\fonts\OpenDyslexic-Regular.otf") format("truetype");
 }
 
 body {
     font-family: "openDyslexics";
     font-weight: bold;
-    /* background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg"); */
-    background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg");
+    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
+    /* background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg"); */
 }
 
 #idLogo {
@@ -59,8 +60,8 @@ body {
 
 .floating-menu a {
     text-decoration: none;
-    /* background: url('C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg'); */
-    background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg");
+    background: url('C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg');
+    /* background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg"); */
     -webkit-background-clip: text; /* Función no compatible con todos los navegadores */
     color: transparent;
     font-size: 22px;
@@ -88,7 +89,9 @@ body {
     position: fixed;
     top: 58%;
     left: 50%;
-    width: 66%; 
+    
+    width: 66%;
+
     transform: translate(-50%, -50%); /* Función a la hora de redimensionar */
     background-color: #fff;
     padding: 20px;
@@ -144,8 +147,8 @@ body {
 /* ------------------------------------------- */
 
 .floating-sidebar {
-    /* background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg"); */
-    background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg");
+    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
+    /* background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg"); */
     grid-column: 2;
 
     position: fixed;
@@ -187,6 +190,7 @@ footer {
     padding: 1px;
     color: #ffffff;
     background-color: #000000;
+    border-radius: 10px;
 }
 
 #enlacesLicencia {
