@@ -1,15 +1,12 @@
 @font-face {
     font-family: "openDyslexics";
-    /* src: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/fonts/Italiana-Regular.ttf") format("truetype"); */
-    /* src: url("C:\Users\usuario\Documents\ProjectosPropios\TFG\src\assets\fonts\OpenDyslexic-Regular.otf") format("truetype"); */
-    src: url("C:\Users\pablo\OneDrive\Documentos\MyProjects\TFG\src\assets\fonts\OpenDyslexic-Regular.otf") format("truetype");
+    src: url("../fonts/OpenDyslexic-Regular.otf") format("truetype");
 }
 
 body {
     font-family: "openDyslexics";
     font-weight: bold;
-    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
-    /* background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg"); */
+    background: url("../images/marblegold.jpg");
 }
 
 #idLogo {
@@ -60,8 +57,7 @@ body {
 
 .floating-menu a {
     text-decoration: none;
-    background: url('C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg');
-    /* background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg"); */
+    background: url('../images/marblegold.jpg');
     -webkit-background-clip: text; /* Función no compatible con todos los navegadores */
     color: transparent;
     font-size: 22px;
@@ -87,7 +83,7 @@ body {
 /* ----------------------------------------- */
 .floating-form {
     position: fixed;
-    top: 58%;
+    top: 54%;
     left: 50%;
     
     width: 66%;
@@ -147,8 +143,7 @@ body {
 /* ------------------------------------------- */
 
 .floating-sidebar {
-    background: url("C:/Users/pablo/OneDrive/Documentos/MyProjects/TFG/src/assets/images/marblegold.jpg");
-    /* background: url("C:/Users/usuario/Documents/ProjectosPropios/TFG/src/assets/images/marblegold.jpg"); */
+    background: url("../images/marblegold.jpg");
     grid-column: 2;
 
     position: fixed;
