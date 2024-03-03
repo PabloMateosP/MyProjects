@@ -99,6 +99,14 @@ footer {
     top: 90%;
     left: 35%; /* Espaciado del footer flotante */
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) and (min-height: 600px) and (max-height: 768px) {
+    footer {
+        left: 29%; 
+    }
+}
+
+
 .floating-footer {
     padding: 1px;
     color: #ffffff;
