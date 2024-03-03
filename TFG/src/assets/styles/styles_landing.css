@@ -97,7 +97,7 @@ body {
 footer {
     position: fixed;
     top: 90%;
-    left: 35%;
+    left: 35%; /* Espaciado del footer flotante */
 }
 .floating-footer {
     padding: 1px;
