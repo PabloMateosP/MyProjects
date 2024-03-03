@@ -69,7 +69,7 @@ body {
 
 .floating-menu a {
     text-decoration: none;
-    background: url("../images/marblegold.jpg");
+    background: url("../images/marblegold_seamless.jpg");
     -webkit-background-clip: text; /* Función no compatible con todos los navegadores */
     color: transparent;
     font-size: 22px;

@@ -6,7 +6,7 @@
 body {
     font-family: "Italiana";
     font-weight: bold;
-    background: url("../images/marblegold.jpg");
+    background: url("../images/marblegold_seamless.jpg");
 }
 
 #idLogo {
@@ -57,7 +57,7 @@ body {
 
 .floating-menu a {
     text-decoration: none;
-    background: url("../images/marblegold.jpg");
+    background: url("../images/marblegold_seamless.jpg");
     -webkit-background-clip: text; /* Función no compatible con todos los navegadores */
     color: transparent;
     font-size: 22px;
@@ -98,6 +98,7 @@ body {
 
     font-size: 20px;
 }
+
 
 .floating-form form {
     display: grid;
@@ -141,7 +142,7 @@ body {
 /* ------------------------------------------- */
 
 .floating-sidebar {
-    background: url("../images/marblegold.jpg");
+    background: url("../images/marblegold_seamless.jpg");
     grid-column: 2;
 
     position: fixed;
@@ -193,4 +194,35 @@ footer {
 
 #textoFooter {
     margin: 5px;
+}
+
+
+/* ---- @Media --------------------------------- */
+@media screen and (min-width: 1000px) and (max-width: 1400px) and (min-height: 600px) and (max-height: 768px) {
+    .floating-form {
+        position: fixed;
+
+        padding: 16px;
+        border: 10px solid black;
+        border-radius: 15px;
+        font-size: 16px;
+
+    }
+
+    .floating-form form {
+        gap: 10px;
+    }
+
+    .floating-form label {
+        margin-bottom: 0;
+    }
+    
+    .floating-form input,
+    .floating-form textarea {
+        padding: 8px;
+    }
+
+    footer {
+        left: 29%; 
+    }
 }
