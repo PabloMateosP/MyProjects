@@ -1,4 +1,4 @@
-// FUNCIÓN PARA OCULTAR DURANTE DOS SEGUNDO EL HEADER Y EL FOOTER
+// FUNCIÓN PARA OCULTAR DURANTE 4 SEGUNDOS EL HEADER Y EL FOOTER
 // -------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", function() {
     var floatingMenu = document.querySelector(".floating-menu");
