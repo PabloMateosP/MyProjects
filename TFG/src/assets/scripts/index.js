@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     floatingMenu.style.opacity = "0";
     floatingFooter.style.opacity = "0";
 
-    var contadorSegundos = 4;
+    var contadorSegundos = 3;
 
     function mostrarDespuesDeSegundos() {
         //Mediante el método setInterval ejecutamos los if y else reiteradamente durante 100 milisegundo
