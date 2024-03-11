@@ -94,101 +94,81 @@ body {
 }
 
 /* ----------------------------------------- */
-.floating-form {
-    position: fixed;
-    top: 54%;
-    left: 50%;
-    width: 66%;
-    transform: translate(-50%, -50%);
-    /* Función a la hora de redimensionar */
-    background-color: #fff;
-    padding: 20px;
-    border: 10px solid black;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Divido formulario dos columnas */
-    gap: 20px;
-    /* Espacio entre las columnas */
 
-    font-size: 20px;
-}
-
-
-.floating-form form {
-    display: grid;
-    gap: 15px;
-}
-
-.floating-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.floating-form input,
-.floating-form textarea {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #7a7a7a;
-    border-radius: 5px;
-}
-
-.floating-form button {
-
-    background-color: #ffffff;
-    color: #000000;
-    font-family: "Italiana";
-    font-weight: bold;
-    padding: 10px 15px;
-    border: 2px solid black;
-    border-radius: 5px;
-    cursor: pointer;
-
-    width: 49%;
-    /* Tamaño útil para que ambos botones entren 
-    debajo del formulario*/
-
-}
-
-.floating-form button:hover {
-    background-color: #585858;
-}
-
-/* ------------------------------------------- */
-
-.floating-sidebar {
-    background: url("../images/marblegold_seamless.jpg");
-    grid-column: 2;
-
-    position: fixed;
+.proyectos__main {
     display: flex;
-
+    align-items: flex-start;
     justify-content: center;
-
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-
-    padding: 20px;
-    border: 10px solid black;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.floating-sidebar img {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.floating-sidebar P {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
+  }
+  
+  .proyectos__main .main__lightbox-proyectos {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    margin: 1em 0 0;
+  }
+  
+  .proyectos__main .main__lightbox-proyectos .ligthbox-proyectos__div-img {
+    background-color: cadetblue;
+    overflow: hidden;
+    flex-basis: 20%;
+  }
+  
+  .proyectos__main .main__lightbox-proyectos .ligthbox-proyectos__div-img .div-img__img {
+    height: 20vh;
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 0.5s ease;
+  }
+  
+  .proyectos__main .main__lightbox-proyectos .ligthbox-proyectos__div-img .div-img__img:hover {
+    transform: scale(1.1);
+  }
+  
+  .proyectos__main .main__ligthbox-proyecto-selected {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  
+  .proyectos__main .main__ligthbox-proyecto-selected .ligthbox-proyecto-selected__boton {
+    margin: 0 0 1em;
+    height: 3rem;
+    width: 3.5rem;
+    cursor: pointer;
+  }
+  
+  .proyectos__main .main__ligthbox-proyecto-selected .ligthbox-proyecto-selected__boton {
+    margin: 0 0 1em;
+    height: 3rem;
+    width: 3.5rem;
+    cursor: pointer;
+  }
+  
+  .proyectos__main .main__ligthbox-proyecto-selected .ligthbox-proyecto-selected__div-img .div-img__img--lightbox {
+    height: 80vh;
+  }
+  
+  .proyectos__main .activo {
+    opacity: 1;
+    z-index: 2;
+    transition: all 0.5s ease;
+  }
+  
 
 /* --------------------------------------------- */
 
