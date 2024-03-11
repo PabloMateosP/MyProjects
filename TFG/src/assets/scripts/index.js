@@ -72,7 +72,7 @@ function hideLoadingScreen() {
         // Esperar a que termine la transición antes de eliminar el div
         setTimeout(function() {
             loadingDiv.parentNode.removeChild(loadingDiv);
-        }, 500); // Ajusta este valor al tiempo de la transición
+        }, 500); 
     }
 
     var idLogo = document.getElementById("idLogo");
