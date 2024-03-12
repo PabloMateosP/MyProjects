@@ -163,6 +163,17 @@ body {
     height: 80vh;
   }
   
+  .ligthbox-proyecto-selected__boton{
+    border-radius: 10px;
+    background-color: #080808;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+
+  .ligthbox-proyectos__div-img {
+    border: 1px solid black;
+  }
+  
   .proyectos__main .activo {
     opacity: 1;
     z-index: 2;
